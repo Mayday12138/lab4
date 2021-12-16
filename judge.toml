@@ -1,0 +1,7 @@
+[jobs.lab4]
+
+image = { source = "dockerfile", path = "." }
+
+run = [
+  "java -jar lab4.jar $input $ir",
+]
